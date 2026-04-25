@@ -1,0 +1,51 @@
+{
+  "name": "eventease",
+  "version": "1.0.0",
+  "description": "EventEase - Academic Event Management Platform",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e .env.local -- next dev",
+    "build": "next build",
+    "start": "dotenv -e .env.local -- next start",
+    "lint": "next lint",
+    "seed": "dotenv -e .env.local -- node --require ts-node/register scripts/seed.ts"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.0.0",
+    "@dnd-kit/sortable": "^7.0.0",
+    "@dnd-kit/utilities": "^3.2.0",
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@fullcalendar/timegrid": "^6.1.20",
+    "autoprefixer": "^10.0.0",
+    "bcryptjs": "^2.4.0",
+    "cloudinary": "^2.9.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.0.0",
+    "next": "^15.0.0",
+    "next-auth": "^4.20.0",
+    "postcss": "^8.0.0",
+    "qrcode": "^1.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "socket.io-client": "^4.5.0",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.0.0",
+    "zod": "^3.20.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^15.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
